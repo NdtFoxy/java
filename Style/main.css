@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Img/gori-5120x2880-gori-21589.jpg);
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+h1{
+    color: rgb(119, 0, 255);
+    font-size: 100px;
+    animation: cols 5s infinite;
+}
+
+@keyframes cols{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
